@@ -1,6 +1,6 @@
 import { test} from '@playwright/test';
 
-test('Sign Up an mercants (approve and delete request)', async ({ page }) => {
+test('Sign Up an mercant (approve request)', async ({ page }) => {
 const fullNameInput = page.getByPlaceholder('Your Full Name');
 const emailInput = page.getByPlaceholder('Your Email Address');
 const phoneInput = page.getByPlaceholder('Your Phone Number');
